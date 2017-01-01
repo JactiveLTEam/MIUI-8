@@ -1,0 +1,3 @@
+post-build=samsung/jactivelte/jactivelte:4.4.2/KTU84Q/I9295XXUCNE5:user/release-keys
+post-timestamp=1482885103
+pre-device=jactivelte
