@@ -1,0 +1,10 @@
+/modem	vfat	/dev/block/platform/msm_sdcc.1/by-name/mdm
+/firmware	vfat	/dev/block/platform/msm_sdcc.1/by-name/apnhlos
+/boot	emmc	/dev/block/platform/msm_sdcc.1/by-name/boot
+/recovery	emmc	/dev/block/platform/msm_sdcc.1/by-name/recovery
+/system	ext4	/dev/block/platform/msm_sdcc.1/by-name/system
+/data	ext4	/dev/block/platform/msm_sdcc.1/by-name/userdata
+/cache	ext4	/dev/block/platform/msm_sdcc.1/by-name/cache
+/efs	ext4	/dev/block/platform/msm_sdcc.1/by-name/efs
+/external_sd	vfat	/dev/block/mmcblk1p1
+/usbstorage	vfat	/dev/block/sda1
