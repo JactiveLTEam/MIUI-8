@@ -17,13 +17,15 @@ local-modified-apps :=
 local-modified-jars := org.cyanogenmod.platform
 
 # All apks from MIUI
-local-miui-removed-apps := BugReport FM GameCenter MiGameCenterSDKService MiLivetalk Mipay MiuiVideo MiuiVoip QuickSearchBox SogouInput SystemAdSolution VoiceAssist WebViewGoogle XiaomiVip XMPass 
+local-miui-removed-apps := BugReport FM GameCenter MiGameCenterSDKService MiLivetalk Mipay MiuiSuperMarket MiuiVideo MiuiVoip QuickSearchBox SogouInput SystemAdSolution VoiceAssist WebViewGoogle XiaomiVip XMPass 
 
 local-miui-modified-apps := InCallUI TeleService SecurityCenter 
 
 # Config density for co-developers to use the aaps with HDPI or XHDPI resource,
 # Default configrations are HDPI for ics branch and XHDPI for jellybean branch
 local-density := XXHDPI
+
+PORT_PRODUCT = jactivelte_global
 
 # All apps need to be removed from original ZIP file
 local-remove-apps   := 
@@ -62,6 +64,7 @@ local-pre-zip-misc:
 	rm -rf $(ZIP_DIR)/system/lib/libjni_eglfence.so
 	rm -rf $(ZIP_DIR)/system/lib/libjni_filtershow_filters.so
 	rm -rf $(ZIP_DIR)/system/lib/libjni_jpegstream.so
+	rm -rf $(ZIP_DIR)/system/lib/libjni_latinime.so
 	rm -rf $(ZIP_DIR)/system/lib/libjni_terminal.so
 	rm -rf $(ZIP_DIR)/system/lib/librsjni.so
 	rm -rf $(ZIP_DIR)/system/lib/libminivenus.so

@@ -6,7 +6,6 @@ private-phone-apps := \
 	Bluetooth \
 	CertInstaller \
 	KeyChain \
-	LatinIME \
 	LiveWallpapers \
 	PacProcessor \
 	PicoTts \
@@ -14,8 +13,7 @@ private-phone-apps := \
 	Stk \
 	telresources \
 	TimeService \
-	WAPPushManager \
-	webview 
+	WAPPushManager 
 
 private-phone-priv-apps := \
 	AudioFX \
@@ -26,7 +24,6 @@ private-phone-priv-apps := \
 	ExternalStorageProvider \
 	FusedLocation \
 	InputDevices \
-	OneTimeInitializer \
 	ProxyHandler \
 	Screencast \
 	SharedStorageBackup \
