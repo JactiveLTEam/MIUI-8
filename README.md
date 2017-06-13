@@ -1,5 +1,7 @@
 # MIUI 8 for Samsung S4 Active
-===========
+<p align="center"> 
+<img src="https://github.com/ivancristina/ivancristina.github.io/raw/master/img/in-post/post-js-version/Miui.png">
+</p>
 
 Getting Android SDK
 ---------------
@@ -37,11 +39,11 @@ Then to sync up:
 
 $ repo sync
 
-$ git clone https://github.com/DiorgenesS/MIUI_S4_Active.git S4active
+$ git clone git@github.com:JactiveLTEam/MIUI-8-Jactivelte.git jactivelte
 
 Build
 --------
 
-$ . build/envsetup.sh && cd S4active
+$ . build/envsetup.sh && cd jactivelte
 
 $ make fullota
