@@ -39,7 +39,7 @@ Then to sync up:
 
 $ repo sync
 
-$ git clone git@github.com:JactiveLTEam/MIUI-8-Jactivelte.git jactivelte
+$ git clone git@github.com:JactiveLTEam/MIUI-8.git jactivelte
 
 Build
 --------
